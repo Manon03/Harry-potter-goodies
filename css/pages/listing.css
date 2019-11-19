@@ -1,0 +1,32 @@
+.container-listing{
+	background-color: #feda6a;
+	margin: auto;
+	padding: 100px;
+}
+.container-listing h1{
+	color: black;
+}
+.grid-listing{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	padding: 20px;
+}
+.grid-listing > .card-goodies{
+	box-shadow: 1px 3px 10px 0px rgba(0,0,0,1);
+}
+.pages{
+	display: flex;
+	justify-content: center;
+}
+.pages p{
+	padding: 10px;
+}
+.pages span{
+	border: 1px solid black;
+	padding: 10px 20px;
+}
+.pages p:hover{
+	cursor: pointer;
+	font-weight: bold;
+}

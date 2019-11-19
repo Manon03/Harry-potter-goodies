@@ -1,0 +1,83 @@
+.container-paiement{
+	margin: auto;
+	padding: 150px;
+	background-color: #feda6a;
+}
+.grid-paiement{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 30px;
+}
+.content-product{
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.content-product img{
+	width: 100%;
+	height: 450px;
+}
+.content-product span{
+	font-weight: bold;
+}
+.paiement i{
+	font-size: 70px;
+}
+.form-coordonees , .form-adresse{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+.form-coordonees-details , .form-adresse-details{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 10px;
+}
+.form-carteCoordonnees div{
+	max-width: 200px;
+	margin: 10px; 
+	color: white;
+}
+.form-container input, .form-container select{
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.form-container{
+	background-color: black;
+	padding: 20px;
+	border-radius: 5px;
+	height: 500px;
+}
+.form-Check div {
+	color: white;
+	font-size: 12px;
+	margin: 10px;
+}
+.form-bouton{
+	margin-top: 40px;
+	
+}
+.form-bouton a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 5px;
+	background-color: #feda6a;
+}
+.visa{
+	display: flex;
+}
+.visa img{
+	width: 150px;
+	height: 150px;
+}
+

@@ -1,0 +1,19 @@
+.container-accueil{
+	background-color: black;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.width-base{
+	width: 1200px;
+	margin: auto;
+}
+.grid-hp{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.container-accueil-actu{
+	background-color: #feda6a;
+	margin: auto;
+	padding-bottom: 30px;
+}

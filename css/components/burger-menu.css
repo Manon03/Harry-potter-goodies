@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  margin-bottom: 10px;
+}
+#iconeBurger{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+.change .bar2 {background-color: black;}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+#menusContainer{
+  display: flex;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+#menusContainer ul{
+  list-style-type: none;
+  display: flex;
+}
+#menusContainer a{
+  color: white;
+    min-width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+}
+#menu{
+  padding: 10px 0;
+  z-index: 2;
+}
+#menu a{
+  padding: 5px 10px;
+}
+
+#menuBurger{
+  display: none;
+  width: 100%;
+}
+
+#menuBurger > nav > ul{
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  left: -100%;
+  transition: left 0.4s;
+  -webkit-transition: left 0.4s;
+}
+
+#menuBurger.change ul{
+  left: 0;
+}
+
+#menuBurger nav ul{
+  display: flex;
+  flex-direction: column;
+}
+
+#menuBurger nav li{
+  font-size: 26px;
+  text-align: center;
+}
+
+
+#menu a:hover ~ .sousMenu, #menusContainer .sousMenu:hover{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+  #menuBurger{
+    display: block;
+  }
+  #menu{
+    display: none;
+  }
+}

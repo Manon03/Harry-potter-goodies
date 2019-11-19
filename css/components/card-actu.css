@@ -1,0 +1,28 @@
+.card-actu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 520px;
+}
+.card-actu img{
+	width: 100%;
+	height: 300px;
+}
+.card-actu a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: white;
+	padding: 20px 40px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.card-actu div{
+	min-height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-actu h3{
+	min-height: 50px;
+}
