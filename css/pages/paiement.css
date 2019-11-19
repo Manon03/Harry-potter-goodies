@@ -19,9 +19,11 @@
 .content-product img{
 	width: 100%;
 	height: 450px;
+	margin-bottom: 20px;
 }
 .content-product span{
 	font-weight: bold;
+	padding: 15px;
 }
 .paiement i{
 	font-size: 70px;
